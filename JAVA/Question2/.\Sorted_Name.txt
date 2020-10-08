@@ -1,0 +1,4 @@
+170101011,Aranya Aryaman,arany170101011@iitg.ac.in,40,TA1
+170101061,Sayak Dutta,sayak170101061@iitg.ac.in,70,CC
+170101067,Sourabh Jangid,soura170101067@iitg.ac.in,10,TA2
+170101068,Sunny Kumar,sunny170101068@iitg.ac.in,95,CC

@@ -1,0 +1,3 @@
+How to run:
+first=> javac *.java
+second=> java Calc1
