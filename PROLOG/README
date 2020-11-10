@@ -1,0 +1,19 @@
+Question 1.
+	How to run:: swipl question1.pl
+	uncle(X,Y). and halfsister(X,Y). are the queries given.
+
+
+Question 2.
+	How to run:: swipl question2.pl
+	findminPath_by_Cost(X,Y).       is the query to find the shortest path by Cost from city X to city Y.
+	findminPath_by_Time(X,Y).       is the query to find the shortest path by Time from city X to city Y.
+	findminPath_by_Distance(X,Y).   is the query to find the shortest path by Distance from city X to city Y.
+	Example:: 						findminPath_by_Distance(a,b).
+
+
+Question 3.
+	How to run:: swipl question3.pl
+	findallpaths().   : with no arguments print all possible escaping paths.
+	findminpath().    : with no aruguments print shortest path.
+	is_path([X]).     : Arugument is given as a list of a Path and returns true is the given list is one of possible path.
+	Example	     : is_path(['G3','G6','G12','G14','G17']).
