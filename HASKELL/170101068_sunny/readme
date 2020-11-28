@@ -1,0 +1,53 @@
+Question 1. set Operations
+
+How to run::
+	1.> Go to that folder where the code is kept.
+	2.> Write the command "ghci".
+	3.> Write ":load question1.hs"
+	
+	Now our program is loaded.
+	commands for various output:
+	1.> is_empty input_list 
+
+	 ex: "is_empty []"      prints True
+	 ex: "is_empty [1,2,3]" prints False
+	 ex: "is_empty [1,1]"   prints invalid because set shouldn't have duplicates.
+
+	 2.> union_set input_list1 input_list2
+
+	 ex: "union_set [1,2] [2,3]"  prints [1,2,3]
+
+	 3.> intersection_set input_list1 input_list2
+
+	 ex: "intersection_set [1,2] [2,3]"  prints [2]
+
+	 4.> subtraction_set input_list1 input_list2
+
+	 ex: "subtraction_set [1,2,3] [1,2]" prints [3]
+
+	 5.> addition_set input_list1 input_list2
+
+	  ex: "addition_set [1,2] [1,2,4]" prints [2,3,4,5,6]
+
+
+Question 2.
+
+How to run::
+	1.> Go to that folder where the code is kept.
+	2.> Write the command "ghci".
+	3.> Write ":load question2.hs"
+
+	Now our program is loaded.
+	commands for various output:
+
+	1.> fixture "all"    prints all fixtures
+	2.> fixture "team_name"
+
+	ex: fixture "BS"
+
+	3.> nextmatch date time 
+
+	(date should be integer like  1,2,3,..)
+	(time should be float values 13.5, 14.5,...)
+	ex: nextmatch 1 13.5 
+
